@@ -103,7 +103,7 @@ pub struct Leg {
     pub steps: Vec<Step>,
     pub distance: Distance,
     pub duration: Duration,
-    pub duration_in_taffic: DurationInTraffic,
+    pub duration_in_traffic: DurationInTraffic,
     pub arrival_time: Time,
     pub depature_time: Time,
     pub start_location: Location,
