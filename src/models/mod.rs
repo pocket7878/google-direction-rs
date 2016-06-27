@@ -120,7 +120,7 @@ pub struct Route {
     pub overview_polyline: Polyline,
     pub bounds: BoundBox,
     pub copyrights: String,
-    pub warning: Vec<String>,
+    pub warnings: Vec<String>,
     pub fare: Fare,
 }
 
