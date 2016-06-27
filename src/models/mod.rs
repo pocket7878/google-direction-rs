@@ -121,7 +121,7 @@ pub struct Route {
     pub bounds: BoundBox,
     pub copyrights: String,
     pub warnings: Vec<String>,
-    pub fare: Fare,
+    pub fare: Option<Fare>,
 }
 
 #[derive(RustcDecodable, RustcEncodable)]
