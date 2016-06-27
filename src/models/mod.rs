@@ -1,7 +1,7 @@
 #[derive(RustcDecodable, RustcEncodable)]
 pub struct GeoCodedWaypoint {
     pub geocoder_status: String,
-    pub partial_match: bool,
+    pub partial_match: Option<bool>,
     pub place_id: String,
     pub types: Vec<String>
 }
