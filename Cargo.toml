@@ -1,5 +1,6 @@
 [package]
 name = "google-direction"
+description = "Google Direction api wrapper for Rust"
 version = "0.1.0"
 authors = ["Pocket7878 <poketo7878@gmail.com>"]
 homepage = "https://github.com/pocket7878/google-direction-rs"
