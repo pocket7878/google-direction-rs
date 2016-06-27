@@ -117,7 +117,7 @@ pub struct Route {
     pub summary: String,
     pub legs: Vec<Leg>,
     pub waypoint_order: Vec<usize>,
-    pub overview_polyline: String,
+    pub overview_polyline: Polyline,
     pub bounds: BoundBox,
     pub copyrights: String,
     pub warning: Vec<String>,
