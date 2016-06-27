@@ -89,7 +89,7 @@ pub struct TransitDetails {
 
 #[derive(RustcDecodable, RustcEncodable)]
 pub struct Step {
-    pub html_instruction: String,
+    pub html_instructions: String,
     pub distance: Distance,
     pub duration: Duration,
     pub start_location: Location,
