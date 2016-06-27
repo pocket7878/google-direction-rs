@@ -2,6 +2,10 @@
 name = "google-direction"
 version = "0.1.0"
 authors = ["Pocket7878 <poketo7878@gmail.com>"]
+homepage = "https://github.com/pocket7878/google-direction-rs"
+repository = "https://github.com/pocket7878/google-direction-rs"
+licence = "Apache-2.0"
+
 
 [dependencies]
 hyper = "0.9.9"
